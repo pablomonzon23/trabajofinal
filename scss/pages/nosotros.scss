@@ -1,0 +1,27 @@
+
+.container-nosotros {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    grid-template-rows: auto;
+    grid-template-areas: "nosotros nosotros nosotros aside" "trabajo trabajo trabajo aside" "pago pago pago aside" "entrega entrega entrega aside";
+    font-size: 1rem;
+    border-left: 20px;
+    padding: 20px;
+  }
+  
+  .forma-trabajo {
+    grid-area: trabajo;
+   @include contenido-nosotros;
+  }
+  
+  .forma-pago {
+    grid-area: pago;
+    @include contenido-nosotros;
+   }
+  
+  .forma-entrega {
+    grid-area: entrega;
+    @include contenido-nosotros;
+  
+  }
+  
