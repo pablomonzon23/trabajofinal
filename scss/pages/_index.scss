@@ -1,0 +1,48 @@
+.portada{
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   
+  }
+  .texto-portada{
+    padding: 30px;
+    text-align: center;
+    }
+
+  .texto-portada img{
+    margin-top: 40px;
+    width: 800px;
+    height: 500px;
+    -webkit-box-shadow: 11px -7px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px -7px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 11px -7px 7px 0px rgba(0,0,0,0.75);
+  }
+  
+  
+  
+  .container-portada{
+      width: 100vw;
+    display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: end;
+  margin-top: 500px;
+  color: white;
+  
+img{
+  margin-top: 80px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+  background: white;
+  border: solid black 1px;
+  border-radius: 30px;
+  margin-top: 40px;
+  filter: drop-shadow(7px -4px 7px #000);
+  padding: 10px;
+  }
+  }
+      

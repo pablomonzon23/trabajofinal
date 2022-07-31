@@ -35,7 +35,17 @@ h2 {
   font-size: 3rem;
   font-family: "Mochiy Pop P One", sans-serif;
   font-weight: 2000px;
-  color: burlywood;
+  color: whitesmoke;
+}
+
+h3 {
+  color: blanchedalmond;
+  font-size: 2rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container-fluid header nav ul li a {
+  color: orange !important;
 }
 
 main {
@@ -50,6 +60,164 @@ main {
   background: -ms-linear-gradient(left, rgb(23, 18, 155) 0%, rgb(25, 16, 132) 100%);
   background: linear-gradient(to right, rgb(23, 18, 155) 0%, rgb(25, 16, 132) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#17129b", endColorstr="#191084", GradientType=1 );
+}
+
+header {
+  min-height: 100px;
+  background: black;
+}
+
+.container-nosotros {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  grid-template-rows: auto;
+  grid-template-areas: "nosotros nosotros nosotros aside" "trabajo trabajo trabajo aside" "pago pago pago aside" "entrega entrega entrega aside";
+  font-size: 1rem;
+  border-left: 20px;
+  padding: 20px;
+}
+
+.forma-trabajo {
+  grid-area: trabajo;
+  border: solid black 1px;
+  margin-top: 30px;
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.forma-pago {
+  grid-area: pago;
+  border: solid black 1px;
+  margin-top: 30px;
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.forma-entrega {
+  grid-area: entrega;
+  border: solid black 1px;
+  margin-top: 30px;
+  border-radius: 30px;
+  padding: 50px;
+}
+
+aside {
+  grid-area: aside;
+  border: solid black 1px;
+  margin-top: 30px;
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.galeria {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.galeria img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  border: solid black 1px;
+  gap: 30px;
+}
+
+.portada {
+  height: 400px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.texto-portada {
+  padding: 30px;
+  text-align: center;
+}
+
+.texto-portada img {
+  margin-top: 40px;
+  width: 800px;
+  height: 500px;
+  -webkit-box-shadow: 11px -7px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px -7px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px -7px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container-portada {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: end;
+  margin-top: 500px;
+  color: white;
+}
+.container-portada img {
+  margin-top: 80px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+  background: white;
+  border: solid black 1px;
+  border-radius: 30px;
+  margin-top: 40px;
+  filter: drop-shadow(7px -4px 7px #000);
+  padding: 10px;
+}
+
+.caja-vestidos {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.contenedor-texto {
+  grid-area: texto;
+  text-align: center;
+  width: 80%;
+}
+
+.contenedor-quince {
+  grid-area: foto1;
+  width: 300px;
+  height: 300px;
+}
+
+.contenedor-quince img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border: solid black 2px;
+}
+
+.contenedor-bodas {
+  grid-area: texto;
+  width: 300px;
+  height: 300px;
+  transform: rotate(10deg);
+}
+
+.contenedor-bodas img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border: solid black 2px;
+}
+
+.contenedor-recepcion {
+  width: 300px;
+  height: 300px;
+  grid-area: foto2;
+}
+
+.contenedor-recepcion img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border: solid black 2px;
+  grid-area: foto3;
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -24,4 +24,8 @@
     @include contenido-nosotros;
   
   }
+  aside{
+    grid-area: aside;
+    @include contenido-nosotros;
+  }
   
