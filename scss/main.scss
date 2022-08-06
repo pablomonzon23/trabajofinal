@@ -1,10 +1,13 @@
+@import "./base/variables";
 @import "./base/mixin";
 @import "./base/reseteo";
 @import "./componenetes/footer";
 @import "./base/tipografia";
 @import "./layouts/main";
 @import "./pages/nosotros";
-@import "./base/variables";
 @import "./pages/galeria";
 @import "./pages/index";
 @import "./pages/confecciones";
+@import "./base/media";
+@import "./pages/contacto";
+@import "./base/condicionales";

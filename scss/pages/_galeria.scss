@@ -1,10 +1,13 @@
 .galeria{
     margin-top: 30px;
     text-align: center;
+    
+ img{
+   @include imagenes-confecciones;
+   border-radius: 20px;
+   object-fit: cover;
+    &:hover{
+      transform: scale(1.5);
     }
- .galeria img{
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
-    border: solid black 1px;
-    gap: 30px;}
+    }
+    }

@@ -1,40 +1,24 @@
 .caja-vestidos{
-display: flex;
-flex-direction: row;
-text-align: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 90%;
+	}
+	.contenedor-texto{
+		text-align: center;
+		width: 80%;
+	  
+		}
+	.contenedor-imagenes{
+		display: flex;
+		flex-direction: row;
+	img{
+	  
+		justify-content: space-around;
+		@include imagenes-confecciones;
+	}
 }
-.contenedor-texto{
     
-    grid-area: texto;
-    text-align: center;
-    width: 80%;
-    }
-
-.contenedor-quince{
-    grid-area: foto1;
-    width: 300px;
-    height: 300px;}
-.contenedor-quince img{
-   @include imagenes-confecciones;
-   }
-   .contenedor-bodas{
-    grid-area: texto;
-    width: 300px;
-    height: 300px;
-    transform: rotate( 10deg );}
-.contenedor-bodas img{
-  @include imagenes-confecciones;
     
-}
 
-.contenedor-recepcion{
-    width: 300px;
-    height: 300px;
-    grid-area: foto2;
-    }
-    
-.contenedor-recepcion img{
-   @include imagenes-confecciones;
-   grid-area: foto3;
 
-}

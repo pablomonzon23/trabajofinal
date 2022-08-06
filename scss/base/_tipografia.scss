@@ -1,24 +1,56 @@
 
     h1{
-        color: white;
-        font-size: 5rem;
+        color:aquamarine;
+        font-size: 6rem;
         font-family: 'Ephesis', cursive;
+        padding: 20px;
         } 
         h2{
             text-align: center;
-            font-size: 3rem;
+            font-size: 4rem;
             font-family: 'Mochiy Pop P One', sans-serif;
             font-weight: 2000px;
         color: whitesmoke;
         }
         h3{
-            color: blanchedalmond;
-            font-size: 2rem;
+           color: antiquewhite;
+            font-size: 3rem;
             font-family: 'Nunito Sans', sans-serif;
         }
-   .forma-pago p{
+        h4{
+            color:violet;
+        }
+        h6{
+            font-size: 2rem;
+        }
+        .container-portada a{
+            color: violet;
+            
+        }
+        .container-portada a:hover{
+            color: white;
+        }
+      
+        .container-nosotros li{
+    font-size: 2rem;
+    color: beige;
+}
+
+p{
+    color: aqua;
+    font-size: 2rem;
+}
+
+nav.navbar {
     
-   }
-   .container-fluid header nav ul li a{
-    color: orange !important;
+    font-size: 2rem;
+}
+
+.datos-personales{
+    font-size: 2rem;
+    color: beige;
+}
+.texto-consultas{
+    color: bisque;
+    font-size: 2rem;
 }

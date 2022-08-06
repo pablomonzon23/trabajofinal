@@ -1,31 +1,46 @@
 
 .container-nosotros {
-    display: grid;
-    grid-template-columns: repeat(4, 3fr);
+   display: grid;
     grid-template-rows: auto;
-    grid-template-areas: "nosotros nosotros nosotros aside" "trabajo trabajo trabajo aside" "pago pago pago aside" "entrega entrega entrega aside";
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas:  "trabajo aside"
+    "pago entrega" ;   
     font-size: 1rem;
     border-left: 20px;
     padding: 20px;
+
   }
   
   .forma-trabajo {
     grid-area: trabajo;
    @include contenido-nosotros;
+ 
+
   }
-  
+
   .forma-pago {
     grid-area: pago;
     @include contenido-nosotros;
+   
    }
   
   .forma-entrega {
     grid-area: entrega;
     @include contenido-nosotros;
+
   
   }
-  aside{
+  .contenedor-produccion{
     grid-area: aside;
-    @include contenido-nosotros;
-  }
+    height: 100%;
+    margin-left: 20px;
+    img{
+      width: 400px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+   }
+    }
+  
   
