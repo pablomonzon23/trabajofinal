@@ -45,8 +45,16 @@ h3 {
   font-family: "Nunito Sans", sans-serif;
 }
 
+h4 {
+  color: violet;
+}
+
+h6 {
+  font-size: 2rem;
+}
+
 .container-portada a {
-  color: #000000;
+  color: violet;
 }
 
 .container-portada a:hover {
@@ -56,10 +64,6 @@ h3 {
 .container-nosotros li {
   font-size: 2rem;
   color: beige;
-}
-
-h6 {
-  font-size: 2rem;
 }
 
 p {
@@ -221,7 +225,8 @@ header {
 @media screen and (max-width: 1300px) {
   .container-nosotros {
     display: flex;
-    flex-direction: baseline;
+    flex-direction: column;
+    text-align: left;
   }
   .container-portada {
     margin-left: 0px;
@@ -236,7 +241,7 @@ header {
   }
   h1 {
     color: white;
-    font-size: 4rem;
+    font-size: 2rem;
   }
   h2 {
     font-size: 2rem;
@@ -244,7 +249,7 @@ header {
   }
   h3 {
     color: black;
-    font-size: 3rem;
+    font-size: 1rem;
   }
   .forma-trabajo ul li {
     font-size: 20px;
@@ -262,12 +267,11 @@ header {
     width: 100%;
   }
   /*revisar*/
-  .formulario-consulta {
+  .texto-consultas {
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: baseline;
-    width: auto;
+    width: 100%;
   }
   .container-nosotros {
     display: flex;

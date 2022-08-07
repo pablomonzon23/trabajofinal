@@ -1,16 +1,5 @@
 
 .formulario-consulta{
-    display: grid;
-    grid-template-columns: repeat(2,5fr);
-    grid-template-rows: auto;
-    grid-template-areas: "dato consulta"
-    "dato consulta";
-    align-items: center;
-}
-.datos-personales{
-    
-   grid-area: dato;
-}
-.texto-consultas{
-    grid-area: consulta;
+   display: flex;
+   flex-direction: column;
 }

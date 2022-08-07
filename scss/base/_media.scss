@@ -1,2 +1,61 @@
 
    
+@media  screen and (max-width: 1300px) {
+    .container-nosotros{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+  
+
+  }
+  @media screen and (max-width:900px) {
+      main{
+          background: $color-sec;
+      }
+      p{
+        font-size: 30px;
+      
+      }
+      h1{
+          color: white;
+          font-size: 2rem;
+      }
+      h2{
+        font-size: 2rem;
+        color: black;
+      }
+      h3{
+        color: black;
+        font-size: 1rem;
+      }
+    
+      .forma-trabajo ul li{
+        font-size: 20px;
+      }
+      
+    .contenedor-imagenes {
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      width: auto;
+      align-items: baseline;
+    }
+    .container-portada{
+      display: flex;
+  flex-direction: column;
+      width: 100%;
+  
+    }
+    /*revisar*/
+    
+    }
+    
+    @media screen and (max-width:500px) {  
+      .container-portada{
+          margin-top: 400px;
+      }
+      h3{
+        font-size: 2rem;
+      }
+      }
